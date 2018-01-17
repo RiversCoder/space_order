@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.visible {
+  opacity: 1;
+}
+.hidden {
+  opacity: 0;
+}
+.block {
+  display: block;
+}
+#app {
+  width: 15rem;
+  height: 26.68rem;
+  transition: .6s;
+  position: relative;
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#app span {
+  display: block;
+}
+#app .light {
+  width: 6.72rem;
+  height: 7.2rem;
+  background-image: url('../images/deng.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 4.14rem;
+  top: -3rem;
+}
+#app .lightray {
+  width: 12.3rem;
+  height: 5.16rem;
+  background-image: url('../images/lightray.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 1.35rem;
+  top: 3.8rem;
+}
+#app .title {
+  width: 11.66rem;
+  height: 0.62rem;
+  background-image: url('../images/title.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 1.67rem;
+  top: 6.4rem;
+}
+#app #content {
+  width: 12.3rem;
+  height: 10.64rem;
+  position: absolute;
+  left: 1.35rem;
+  top: 8.8rem;
+  box-shadow: 0px 2px 20px #333;
+}
+#app #content header {
+  width: 12.3rem;
+  height: 1.54rem;
+  background-image: url('../images/logo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#app #content .formBoxWap {
+  width: 12.3rem;
+  height: 9.1rem;
+  background-image: url('../images/firmbg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 1.32rem;
+}
+#app #content .formBoxWap .inputBox {
+  display: block;
+  margin: 0 auto;
+  width: 6.6rem;
+  height: 1.1rem;
+  background-color: #ffffff;
+  margin-top: 0.4rem;
+  background-size: 1.1rem 1.1rem;
+  background-position: top right;
+  position: relative;
+}
+#app #content .formBoxWap .inputBox input {
+  width: 5.54rem;
+  height: 1.1rem;
+  border: 0;
+  background: #ffffff;
+  display: block;
+  font-size: 0.44rem;
+  color: #666;
+  text-indent: 0.4rem;
+  position: relative;
+  z-index: 0;
+  outline: none;
+}
+#app #content .formBoxWap .inputBox .minput::-webkit-input-placeholder {
+  font-size: 0.34rem;
+  letter-spacing: 0.08rem;
+  color: #c9c9c9;
+}
+#app #content .formBoxWap .inputBox .clickWrap {
+  width: 5.54rem;
+  height: 1.1rem;
+  background-color: #ff0000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#app #content .formBoxWap .inputBox:nth-of-type(1) {
+  margin-top: 0;
+  background-image: url('../images/i_01.jpg');
+  background-repeat: no-repeat;
+}
+#app #content .formBoxWap .inputBox:nth-of-type(2) {
+  background-image: url('../images/i_02.jpg');
+  background-repeat: no-repeat;
+}
+#app #content .formBoxWap .inputBox:nth-of-type(3) {
+  background-image: url('../images/i_03.jpg');
+  background-repeat: no-repeat;
+}
+#app #content .formBoxWap .submitBtn {
+  width: 3.2rem;
+  height: 1.2rem;
+  background-color: #df6770;
+  font-size: 0.4rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.08rem;
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+#app #content .formBoxWap .submitBtn:hover,
+#app #content .formBoxWap .submitBtn:active {
+  background-color: #e43836;
+  color: #eee;
+}
+#app #content .formBoxWap .introText {
+  color: #ffffff;
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.46rem;
+  margin-top: 0.36rem;
+  letter-spacing: 0.06rem;
+  display: none;
+}
+#app .telA {
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  bottom: 3rem;
+  border: 1px solid #ddd;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  border-radius: 0.24rem;
+  font-size: 0.52rem;
+  color: #fff;
+  margin-left: -2.08rem;
+}
+#app a:-webkit-any-link {
+  text-decoration: none;
+}
+#app .footerCompany {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  letter-spacing: 0.06rem;
+}
+.ui-loader {
+  display: none;
+}
